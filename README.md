@@ -76,6 +76,11 @@ The bot must be an admin of the group so it can delete `/add_accs` messages, whi
 
 The restocker picks a region for each lot by looking for a keyword in the lot description: `Украина`, `Казахстан` or `США`.
 
+## Example of work
+<img width="280" height="136" alt="photo_2026-10-11_19-16-31" src="https://github.com/user-attachments/assets/66ed462c-241b-453b-bac5-6f3dc2577115" />
+
+<img width="314" height="210" alt="photo_2026-10-11_19-16-35" src="https://github.com/user-attachments/assets/f351f6ec-5204-4ea8-aadb-e9c50faac133" />
+
 ## Security
 
 - All secrets come from environment variables. `.env` is git-ignored, and `SecretStr` keeps them out of logs and reprs.
